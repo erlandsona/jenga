@@ -2,5 +2,10 @@ module Lib
     ( someFunc
     ) where
 
+
+import "common" Lib
+
 someFunc :: IO ()
-someFunc = putStrLn "Test 1"
+someFunc = do
+  commonLog
+  putStrLn "ProjectA 1"

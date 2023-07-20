@@ -33,5 +33,10 @@ ghc-options:
 - -Wpartial-fields
 - -Wredundant-constraints
 
+default-extensions:
+- PackageImports
+
 library:
   source-dirs: src
+  dependencies:
+    - common

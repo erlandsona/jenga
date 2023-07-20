@@ -30,6 +30,7 @@ resolver:
 #   - auto-update
 #   - wai
 packages:
+- common
 - projectA
 - projectB
 # Dependency packages to be pulled from upstream that are not in the resolver.
